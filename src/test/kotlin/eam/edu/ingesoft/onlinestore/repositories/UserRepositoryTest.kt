@@ -22,6 +22,7 @@ class UserRepositoryTest {
     fun contextLoads() {
     }
 
+
     @Test
     fun testCreate() {
         val city = City(2L, "Pereira")
