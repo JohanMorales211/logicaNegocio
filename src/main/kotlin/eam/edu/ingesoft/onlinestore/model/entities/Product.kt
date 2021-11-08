@@ -1,6 +1,5 @@
-package eam.edu.ingesoft.onlinestore.model
+package eam.edu.ingesoft.onlinestore.model.entities
 
-import eam.edu.ingesoft.onlinestore.model.Category
 import java.io.Serializable
 import javax.persistence.*
 
@@ -9,7 +8,7 @@ import javax.persistence.*
 data class Product(
     @Id
     @Column(name = "id_producto")
-    val id: Long,
+    var id: Long,
 
     @Column(name = "nombre")
     var name: String,

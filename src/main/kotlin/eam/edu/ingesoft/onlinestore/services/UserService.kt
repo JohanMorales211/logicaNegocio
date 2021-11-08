@@ -1,7 +1,7 @@
 package eam.edu.ingesoft.onlinestore.services
 
 import eam.edu.ingesoft.onlinestore.exceptions.BusinessException
-import eam.edu.ingesoft.onlinestore.model.User
+import eam.edu.ingesoft.onlinestore.model.entities.User
 import eam.edu.ingesoft.onlinestore.repositories.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service

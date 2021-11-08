@@ -1,6 +1,6 @@
 package eam.edu.ingesoft.onlinestore.repositories
 
-import eam.edu.ingesoft.onlinestore.model.City
+import eam.edu.ingesoft.onlinestore.model.entities.City
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 import org.springframework.transaction.annotation.Transactional

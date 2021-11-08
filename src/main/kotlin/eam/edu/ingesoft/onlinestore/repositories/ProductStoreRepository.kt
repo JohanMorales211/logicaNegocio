@@ -1,7 +1,6 @@
 package eam.edu.ingesoft.onlinestore.repositories
 
-import eam.edu.ingesoft.onlinestore.model.Product
-import eam.edu.ingesoft.onlinestore.model.ProductStore
+import eam.edu.ingesoft.onlinestore.model.entities.ProductStore
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 import org.springframework.transaction.annotation.Transactional

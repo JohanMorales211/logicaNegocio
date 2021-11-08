@@ -1,7 +1,7 @@
 package eam.edu.ingesoft.onlinestore.services
 
 import eam.edu.ingesoft.onlinestore.exceptions.BusinessException
-import eam.edu.ingesoft.onlinestore.model.*
+import eam.edu.ingesoft.onlinestore.model.entities.*
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
