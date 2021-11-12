@@ -22,11 +22,12 @@ class ProductService {
      */
     fun createProduct(product: Product) {
         val productFind = productRepository.listNames(product)
-
-        if (productFind != null) {
-            throw BusinessException("This product whit this name already exists")
+        val productById = productRepository.find(product.id)
+        if (productById != null) {
+            if (productFind != null) {
+                throw BusinessException("This product whit this name already exists")
+            }
         }
-
         productRepository.create(product)
     }
 
