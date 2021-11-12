@@ -1,7 +1,7 @@
 package eam.edu.ingesoft.onlinestore.repositories
 
-import eam.edu.ingesoft.onlinestore.model.City
-import eam.edu.ingesoft.onlinestore.model.User
+import eam.edu.ingesoft.onlinestore.model.entities.City
+import eam.edu.ingesoft.onlinestore.model.entities.User
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
@@ -21,6 +21,7 @@ class UserRepositoryTest {
     @Test
     fun contextLoads() {
     }
+
 
     @Test
     fun testCreate() {

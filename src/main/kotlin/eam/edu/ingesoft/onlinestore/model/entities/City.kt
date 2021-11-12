@@ -1,4 +1,4 @@
-package eam.edu.ingesoft.onlinestore.model
+package eam.edu.ingesoft.onlinestore.model.entities
 
 import java.io.Serializable
 import javax.persistence.Column

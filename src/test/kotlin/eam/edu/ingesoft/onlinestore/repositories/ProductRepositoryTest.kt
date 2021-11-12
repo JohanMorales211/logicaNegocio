@@ -1,7 +1,7 @@
 package eam.edu.ingesoft.onlinestore.repositories
 
-import eam.edu.ingesoft.onlinestore.model.Category
-import eam.edu.ingesoft.onlinestore.model.Product
+import eam.edu.ingesoft.onlinestore.model.entities.Category
+import eam.edu.ingesoft.onlinestore.model.entities.Product
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
